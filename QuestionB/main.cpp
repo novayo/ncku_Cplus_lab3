@@ -24,7 +24,10 @@ void insertion_sort(vector<int> & v)
 int main()
 {
 	Clock clk;
-	const int size = 100000;
+//	const int size = 1000;
+//	const int size = 10000;
+//	const int size = 100000;
+	const int size = 1000000;
 	vector<int> v1(size),v2;
 	srandom(time(NULL));
 	for(int i=0; i<size; ++i)
